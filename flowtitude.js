@@ -5,19 +5,19 @@ const flowtitude = plugin(function({ addUtilities, theme, addComponents, addBase
   // Añadir variables CSS
   addBase({
 	':root': {
-	 '--ft-text-xs':   'clamp(0.69rem, calc(-0.087cqi + 0.7096rem), 0.64rem )';
-	 '--ft-text-sm':   'clamp(0.83rem, calc(-0.0522cqi + 0.8417rem), 0.8rem )';
-	 '--ft-text-base': 'clamp(1rem, calc(0cqi + 1rem), 1rem )';
-	 '--ft-text-lg':   'clamp(1.2rem, calc(0.087cqi + 1.1804rem), 1.25rem )';
-	 '--ft-text-xl':   'clamp(1.44rem, calc(0.2087cqi + 1.393rem), 1.56rem )';
-	 '--ft-text-2xl':  'clamp(1.73rem, calc(0.3826cqi + 1.6439rem), 1.95rem )';
-	 '--ft-text-3xl':  'clamp(2.07rem, calc(0.6435cqi + 1.9252rem), 2.44rem )';
-	 '--ft-text-4xl':  'clamp(2.49rem, calc(0.9739cqi + 2.2709rem), 3.05rem )';
-	 '--ft-text-5xl':  'clamp(2.99rem, calc(1.4261cqi + 2.6691rem), 3.81rem )';
-	 '--ft-text-6xl':  'clamp(3.58rem, calc(2.0696cqi + 3.1143rem), 4.77rem )';
-	 '--ft-text-7xl':  'clamp(4.3rem, calc(2.887cqi + 3.6504rem), 5.96rem )';
-	 '--ft-text-8xl':  'clamp(5.16rem, calc(3.9826cqi + 4.2639rem), 7.45rem )';
-	 '--ft-text-9xl':  'clamp(6.19rem, calc(5.4261cqi + 4.9691rem), 9.31rem )';
+	 '--ft-text-xs':   'clamp(0.69rem, calc(-0.087cqi + 0.7096rem), 0.64rem )',
+	 '--ft-text-sm':   'clamp(0.83rem, calc(-0.0522cqi + 0.8417rem), 0.8rem )',
+	 '--ft-text-base': 'clamp(1rem, calc(0cqi + 1rem), 1rem )',
+	 '--ft-text-lg':   'clamp(1.2rem, calc(0.087cqi + 1.1804rem), 1.25rem )',
+	 '--ft-text-xl':   'clamp(1.44rem, calc(0.2087cqi + 1.393rem), 1.56rem )',
+	 '--ft-text-2xl':  'clamp(1.73rem, calc(0.3826cqi + 1.6439rem), 1.95rem )',
+	 '--ft-text-3xl':  'clamp(2.07rem, calc(0.6435cqi + 1.9252rem), 2.44rem )',
+	 '--ft-text-4xl':  'clamp(2.49rem, calc(0.9739cqi + 2.2709rem), 3.05rem )',
+	 '--ft-text-5xl':  'clamp(2.99rem, calc(1.4261cqi + 2.6691rem), 3.81rem )',
+	 '--ft-text-6xl':  'clamp(3.58rem, calc(2.0696cqi + 3.1143rem), 4.77rem )',
+	 '--ft-text-7xl':  'clamp(4.3rem, calc(2.887cqi + 3.6504rem), 5.96rem )',
+	 '--ft-text-8xl':  'clamp(5.16rem, calc(3.9826cqi + 4.2639rem), 7.45rem )',
+	 '--ft-text-9xl':  'clamp(6.19rem, calc(5.4261cqi + 4.9691rem), 9.31rem )',
 	 
 	 '--ft-space-4xs': 'clamp(0.4rem, calc(0.1565cqi + 0.3648rem), 0.49rem )',
 	 '--ft-space-3xs': 'clamp(0.48rem, calc(0.2261cqi + 0.4291rem), 0.61rem )',
