@@ -1,5 +1,5 @@
 {
-  "name": "flowtitude",
+  "name": "flowtitude.dev",
   "version": "0.0.1",
   "description": "Un plugin personalizado para Tailwind CSS y WordPress",
   "main": "index.js",
@@ -12,8 +12,5 @@
     "tailwind"
   ],
   "author": "Flowtitude",
-  "license": "MIT",
-  "dependencies": {
-    "flowtitude-basic": "^0.0.1"
-  }
+  "license": "MIT"
 }
