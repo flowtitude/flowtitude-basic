@@ -1,0 +1,20 @@
+{
+  "name": "@ajjulian/flowdev",
+  "version": "0.1.0",
+  "description": "Un plugin personalizado para Tailwind CSS y WordPress",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tailwindcss",
+    "plugin",
+    "tailwind"
+  ],
+  "peerDependencies": {
+    "tailwindcss": "~3.4.0"
+  },
+  "author": "Flowtitude",
+  "license": "MIT"
+}
+
